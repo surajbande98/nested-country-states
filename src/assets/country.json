@@ -1,0 +1,19 @@
+[
+  {
+    "id": 101,
+    "name": "India",
+    "iso2": "IN"
+  },
+
+  {
+    "id": 102,
+    "name": "America",
+    "iso2": "US"
+  },
+
+  {
+    "id": 103,
+    "name": "Engand",
+    "iso2": "EN"
+  }
+]

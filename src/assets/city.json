@@ -1,0 +1,22 @@
+[
+  {
+    "id": 201,
+    "name": "Pune",
+    "state": "MH",
+    "iso2": "IN"
+  },
+
+  {
+    "id": 202,
+    "name": "Mumbai",
+    "state": "MH",
+    "iso2": "IN"
+  },
+
+  {
+    "id": 203,
+    "name": "Florida",
+    "state": "FL",
+    "iso2": "US"
+  }
+]

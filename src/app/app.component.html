@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+  <select (change)="onSelectCountry($event)">
+    <option *ngFor="let country of countries" [value]="country.shortName">
+      {{country.name}}
+    </option>
+  </select>
+
+  <br />
+
+  <select (change)="onSelectCountry($event, 'state')">
+    <option *ngFor="let country of states" [value]="country">
+      {{country}}
+    </option>
+  </select>
+
+  <br />
+
+  <select>
+    <option *ngFor="let country of cities" [value]="country">
+      {{country}}
+    </option>
+  </select>
+</div>
